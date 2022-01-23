@@ -121,28 +121,6 @@ function createAndUpdateStorage(employeePayrollData) {
     localStorage.setItem("EmployeePayrollList", JSON.stringify(employeePayrollList))
 }
 
-
-//uc--5
-// const resetForm = () => {
-//     console.log("resetting...");
-//     setValue('#name', '');
-//     const nameError = document.querySelector(".text-error");
-//     nameError.textContent = "";
-//     unsetSelectedValues('[name=profile]');
-//     unsetSelectedValues('[name=gender]');
-//     unsetSelectedValues('[name=department]');
-//     setValue('#salary', '400000');
-//     const output = document.querySelector('.salary-output');
-//     output.textContent = '400000';
-//     setValue('#note', '');
-//     setValue('#day', '');
-//     setValue('#month', '');
-//     setValue('#year', '');
-//     const dateError = document.querySelector('.date-error');
-//     dateError.textContent = "";
-//     //setTextValue('#startDate', '');
-// }
-
 const resetForm = () => {
     console.log("resetting...");
     setValue('#name', '');
