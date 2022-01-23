@@ -55,9 +55,6 @@ const salaryOutput = () => {
     });
 }
 
-
-//    uc--3
-
 const save = () => {
     console.log("save");
     try {
