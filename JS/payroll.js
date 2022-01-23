@@ -110,7 +110,6 @@ const getInputElementValue = (id) => {
     return value;
 }
 
-// uc---4
 function createAndUpdateStorage(employeePayrollData) {
     let employeePayrollList = JSON.parse(localStorage.getItem("EmployeePayrollList"));
     if (employeePayrollList != undefined) {
