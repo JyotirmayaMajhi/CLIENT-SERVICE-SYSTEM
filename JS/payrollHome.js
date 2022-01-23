@@ -43,3 +43,8 @@ const stringifyDate = (date) => {
     const newDate = !date ? "undefined" : new Date(date).toLocaleDateString('en-GB', options);
     return newDate;
 }
+
+let site_properties = {
+    home: "..\HTML\payrollHome.html",
+    addEmployee: "..\HTML\payroll.html"
+};
